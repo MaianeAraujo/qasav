@@ -1,0 +1,17 @@
+{
+  "name": "teste-automatizado",
+  "version": "1.0.0",
+  "description": "Teste automatizado da Au Happy!  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Maiane Araujo",
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^10.10.0",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}
