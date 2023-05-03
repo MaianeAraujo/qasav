@@ -1,0 +1,14 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "teste automatizado auhappy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Maiane Araujo",
+  "license": "MIT"
+}
