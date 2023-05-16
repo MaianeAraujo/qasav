@@ -2,7 +2,6 @@ it('Login', ()=> {
     cy.visit('http://localhost:8080/sav-web-1.0/inicio.faces')
 
     cy.get('input[id="loginInpt"]').type('admin')
-  //  cy.xpath('//*[@name="loginInpt"]').type('admin')
     cy.get('input[id="pwd"]').type('1')
     cy.get('button[id="buttonEntrar"]').click()
     cy.wait(450)
