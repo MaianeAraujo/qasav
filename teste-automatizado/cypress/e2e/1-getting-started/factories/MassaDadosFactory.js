@@ -38,110 +38,93 @@ const nomeCompletoPet = `${firstName}`;
 
 export default {
     massaDados: function () {
-      var dados = {
+        var dados = {
 
-        regionais:{
-            regional01:"AH SP.04 Marcos Eduardo Abi Rached Silva",
-            regional02:"AH SP.05 FABIANE ABI RACHED",
-            regional03:"AHMG.01 AU!HAPPY PLANO DE SAÚDE ANIMAL LTDA"
-        }, 
+            regionais: {
+                regional01: "AH SP.04 Marcos Eduardo Abi Rached Silva",
+                regional02: "AH SP.05 FABIANE ABI RACHED",
+                regional03: "AHMG.01 AU!HAPPY PLANO DE SAÚDE ANIMAL LTDA"
+            },
 
-        consultorRegional03:{
-            consultor01:"Agatha Celine Costa Pessoa",
-            consultor02:"Ana Clara de Oliveira Soares",
-            consultor03:"Clara de Oliveira Cordeiro"
-        },
+            consultorRegional03: {
+                consultor01: "Agatha Celine Costa Pessoa",
+                consultor02: "Ana Clara de Oliveira Soares",
+                consultor03: "Clara de Oliveira Cordeiro"
+            },
 
-        especie:{
-            canino:"Canino",
-            felino:"Felino"
+            especie: {
+                canino: "Canino",
+                felino: "Felino"
 
-        },
+            },
 
-        racaCanino:{
-            raca01:"AFFENPINCHER",
-            raca02:"AFGHAN HOUND",
-            raca03:"SHIH-TZU"
+            racaCanino: {
+                raca01: "AFFENPINCHER",
+                raca02: "AFGHAN HOUND",
+                raca03: "SHIH-TZU"
 
-        },
+            },
 
-        inserirNomeProponente:{
-        nomeCompletoP:`${nomeCompletoProponente}`, 
-        
-        },
+            inserirNomeProponente: {
+                nomeCompletoP: `${nomeCompletoProponente}`,
 
-        municipios:{
-            municipioMG: "Belo Horizonte",
-            municipioRJ: "Rio De Janeiro",
-            municipioSP: "São Paulo"
+            },
 
-        },
+            municipios: {
+                municipioMG: "Belo Horizonte",
+                municipioRJ: "Rio De Janeiro",
+                municipioSP: "São Paulo"
 
-        emails:{
-            emailProponente:`${email}`,
+            },
 
-        },
+            emails: {
+                emailProponente: `${email}`,
 
-        planos:{
-            auPet: "Au! Pet",
-            auPetSemCarencia: "Au! Pet (sem carência)" ,
-            auFriendly: "Au! Friendly" ,
-            auFriendlySemCarencia: "Au! Friendly (sem carência)" ,
-            auLove: "Au! Love"
+            },
 
-        },
+            planos: {
+                auPet: "Au! Pet",
+                auPetSemCarencia: "Au! Pet (sem carência)",
+                auFriendly: "Au! Friendly",
+                auFriendlySemCarencia: "Au! Friendly (sem carência)",
+                auLove: "Au! Love"
 
-        nomeParaPet:{
+            },
 
-            nomeComPet: `${nomeCompletoPet}`
-          
-            
-        },
+            nomeParaPet: {
 
-        sexoPet:{
-            sexo01: "Fêmea",
-            sexo02: "Macho"
-            
-        },
-
-        dadosPessoais:{
-            cpf: meuCPF,
-        },
-
-        sexoContratante:{
-            feminino: "Feminino",
-            masculino: "Masculino"
-
-        },
-
-        formaPagamento:{
-            boleto: "Boleto",
-            cartao: "Cartão de Crédito"
-        },
-
-        enviarArquivos:{
-            arquivoPDF: "arquivo.pdf"
-        }
-
-       
-            
-        
-
-        
+                nomeComPet: `${nomeCompletoPet}`
 
 
-        
+            },
+
+            sexoPet: {
+                sexo01: "Fêmea",
+                sexo02: "Macho"
+
+            },
+
+            dadosPessoais: {
+                cpf: meuCPF,
+            },
+
+            sexoContratante: {
+                feminino: "Feminino",
+                masculino: "Masculino"
+
+            },
+
+            formaPagamento: {
+                boleto: "Boleto",
+                cartao: "Cartão de Crédito"
+            },
+
+            enviarArquivos: {
+                arquivoPDF: "arquivo.pdf"
+            }
 
 
-        
-
-      
-        
-
-
-
-
-    };
-    return dados;
-  },
+        };
+        return dados;
+    },
 };

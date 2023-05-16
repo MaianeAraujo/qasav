@@ -31,33 +31,33 @@ describe('Simulação de Plano', () => {
 
     })
 
-    // it('Nova simulação', () => {
-    //     menuUI.acessarMenu()
-    //     menuUI.menuComercial()
-    //     simulacaoUI.selecionarSimulacaoWeb()
-    //     simulacaoUI.clicarBotaoNovaSimulacao()
-    //     simulacaoUI.preencherDadosNovaSimulacao(
-    //         dados.regionais.regional03,
-    //         dados.consultorRegional03.consultor02,
-    //         dados.especie.canino,
-    //         dados.racaCanino.raca03,
-    //         dados.inserirNomeProponente.nomeCompletoP,
-    //         dados.municipios.municipioMG,
-    //         dados.emails.emailProponente)
-    //     simulacaoUI.clicarBotaoSalvar()
-    //     simulacaoUI.esperarSalvar()
+    it('Nova simulação', () => {
+        menuUI.acessarMenu()
+        menuUI.menuComercial()
+        simulacaoUI.selecionarSimulacaoWeb()
+        simulacaoUI.clicarBotaoNovaSimulacao()
+        simulacaoUI.preencherDadosNovaSimulacao(
+            dados.regionais.regional03,
+            dados.consultorRegional03.consultor02,
+            dados.especie.canino,
+            dados.racaCanino.raca03,
+            dados.inserirNomeProponente.nomeCompletoP,
+            dados.municipios.municipioMG,
+            dados.emails.emailProponente)
+        simulacaoUI.clicarBotaoSalvar()
+        simulacaoUI.esperarSalvar()
         
         
                
 
-    // })
+    })
 
     it('Abrir Adesao', () => {
         menuUI.acessarMenu()
         menuUI.menuComercial()
         simulacaoUI.selecionarSimulacaoWeb()
         simulacaoUI.abrirNovaAdesao(dados.inserirNomeProponente.nomeCompletoP)
-        simulacaoUI.selecionarPlano()
+        simulacaoUI.selecionarPlano(dados.planos.auLove)
         simulacaoUI.preencherDadosAnimal(dados.nomeParaPet.nomeComPet,
             dados.sexoPet.sexo02)
         simulacaoUI.preencherDadosContratante(dados.dadosPessoais.cpf,

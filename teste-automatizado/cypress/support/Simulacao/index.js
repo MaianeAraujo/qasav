@@ -1,5 +1,7 @@
 import { elemento } from "../MenuCustons/elementos";
 import { elementos } from "./elementos";
+import ('cypress-xpath');
+
 
 
 
@@ -57,30 +59,22 @@ class SimulacaoUI {
             .as('salvar')
     }
 
-    abrirNovaAdesao() {
+    abrirNovaAdesao(nomeProponente) {
         cy.wait(500)
-        cy.get(elementos.insertPesquisarNomeProponente).type("BERNITA BOSCO")
+        cy.get(elementos.insertPesquisarNomeProponente).type(nomeProponente)
             .wait(500)
         cy.get(elementos.buttonPesquisarNomeProponente).click()
-        cy.get('[class="ui-widget-content ui-datatable-even"]')
-            .contains("BERNITA BOSCO")
-            .next()
-            .next()
-            .next()
+        cy.get(elementos.selectTableSimulacao)
             .contains("Abrir adesão")
             .click({ force: true })
             .wait(500)
 
     }
 
-    selecionarPlano() {
-        cy.wait(500)
-        cy.contains('div[class="p-3 h-full"]', "Au! Love")
-            .find("button")
-            .click()
-            .wait(500)
-
-
+    selecionarPlano(auLove) {
+        cy.get(elementos.selectPlano)
+            .contains(auLove)
+        cy.xpath("//div[5]/div/div/button").click()
     }
 
     preencherDadosAnimal(nomePet, sexoAnimal) {
