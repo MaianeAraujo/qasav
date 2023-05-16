@@ -59,7 +59,18 @@ exports.elementos = {
     searchResultTipoArquivo: 'input[class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all"]',
     selectOptionsAquivo: 'li[class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all"]',
     buttonConfArquivos: 'button[class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only Fs16 ui-button-success"]',
-    buttonAlertaArquivo: 'button[class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-confirm-popup-yes"]'
+    buttonAlertaArquivo: 'button[class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-confirm-popup-yes"]',
+    selectMenuPVendas: 'li[id="menuform:analiseCadastral"]',
+    inputNomeDoPet: 'input[id="nomeAnimal"]',
+    inputNomeDoTutor: 'input[id="nomeContratante"]',
+    selectSituacao: 'label[id="situacaoAdesao_label"]',
+    searchResultSituacao: 'input[id="situacaoAdesao_filter"]',
+    selectOptionsSituacao: 'li[class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all"]',
+    buttonPesquisarAnaliseCadastral: 'button[id="pesquisar"]',
+    buttonAcoesAnaliseCadastral: 'button[id="tabelaAnaliseCadastral:0:acoes_button"]',
+    selectAprovar: 'a[id="aprovar"]',
+    inputObservacaoAprovar: 'textarea[id="aprovarAnaliseForm:obs"]',
+  
 
 
     
