@@ -7,9 +7,11 @@ class MenuUI {
     }
 
     menuComercial(){
-        cy.get(elemento.selectMenuComercial).click()
-        
+        cy.get(elemento.selectMenuComercial).click()    
+    }
 
+    menuPosVendas(){
+        cy.get(elemento.selectMenuPosVendas).click()
     }
 
 

@@ -22,7 +22,7 @@ describe('Simulação de Plano', () => {
             nome: 'admin',
             senha: '1',
         }
-        cy.get('input[id="loginInpt"]').type(loginUsuario.nome)
+         cy.get('input[id="loginInpt"]').type(loginUsuario.nome)
          cy.get('input[id="pwd"]').type(loginUsuario.senha)
          cy.get('button[id="buttonEntrar"]').click()
 

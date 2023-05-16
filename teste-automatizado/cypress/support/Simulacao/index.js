@@ -143,6 +143,12 @@ class SimulacaoUI {
         cy.get(elementos.buttonAlertaArquivo).click()
     }
 
+    selecionarAnaliseCadastral(){
+        cy.get(elementos.selectMenuPVendas)
+
+
+    }
+
 
 
 
